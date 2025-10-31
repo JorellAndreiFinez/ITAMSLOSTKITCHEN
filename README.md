@@ -77,70 +77,129 @@ To create a C++ program called ITAM’S LOST KITCHEN, serving as a food guide an
 
 ## 🖥️ User Interface Overview
 
-The following screenshots showcase key interfaces and functionalities of **HermesPy**, highlighting its user-friendly design and intelligent chatbot interactions.
+## 🖥️ User Interface Overview
 
-### 🧭 Startup
-- **Start Screen** – Displays the HermesPy logo and navigation options for login or signup.
+The following screenshots and descriptions illustrate the key interfaces of **ITAM’S LOST KITCHEN**, a menu-driven C++ console program designed to help **FEU Tech students** explore canteen food options and place simulated orders.
+
+---
+
+### 🧭 Title Menu
+- This is the first interface users see when launching the program.  
+  It displays the title of the system along with the instruction **“Press Enter to continue”**, prompting the user to proceed to the main menu.
+
+  ![ITAM'S LOST KITCHEN Title Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%201.jpg)
+
+---
+
+### 📋 Main Menu
+- The main menu serves as the central hub of navigation with three primary options:  
+  - **A – Find Food in the FEU Tech Campus**: Opens the list of available food stalls.  
+  - **B – About Us**: Displays background information about the program and developers.  
+  - **C – Exit**: Closes and terminates the program.
+ 
+ ![ITAM'S LOST KITCHEN Main Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%202.jpg)
+  ![ITAM'S LOST KITCHEN About Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20ABOUT.jpg)
   
-  ![HermesPy Chat Interface](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-login.png)
 
-### ⚙️ Admin Dashboard
-- **Account Management** – Admins can create, update, delete, and view individual or all user accounts with real-time confirmation feedback.
-  
-    ![HermesPy Chat Interface](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-admin%20account.png)
+---
 
-### 💬 Chatbot Interface
-- **Main Chat Window** – The interactive space where users can engage with HermesPy using natural language commands.
-
-  ![HermesPy Chat Interface](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20window.png)
+### 🍴 Find Food Menu
+- This section allows users to explore options related to food selection:  
+  - **A – View List of Food Stalls**: Displays all available stalls in the canteen.  
+  - **B – Floor Mapping**: Shows a simple layout of the FEU Tech 8th floor canteen.  
+  - **C – Back**: Returns to the main menu.
     
-- **Help Command** – Displays a complete list of supported commands for easy reference..
+     ![ITAM'S LOST KITCHEN Find Food Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20FIND%20FOOD.jpg)
 
-  ![HermesPy Chat Interface](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20help.png)
+---
+
+### 🏪 Food Stall Directory
+- Displays a list of food stalls available at the FEU Tech canteen:  
+  - **A – Famous Belgian Waffle**  
+  - **B – V & V Café**  
+  - **C – The Original: Sisig-Ok**  
+  - **D – De Original Jamaican Pattie Shop**  
+  - **E – I Don’t Wanna Miss a Tea’**  
+  - **F – Back** – Returns to the Find Food Menu.
     
-- **Interactive Responses** – HermesPy offers dynamic replies to greetings, questions, and casual conversations, adding personality and engagement..
+   ![ITAM'S LOST KITCHEN Food Stall Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20FOODSTALL.jpg)
 
-  ![HermesPy Chat Interface](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20response%201.png)
-  ![HermesPy Chat Interface](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20response%202.png)
+---
 
-### 🧾 Smart Functionalities
+### 🗺️ Floor Mapping Menu
+- Shows an overview of the canteen layout located on the 8th floor of FEU Tech.  
+  Includes an option:  
+  - **A – Back**: Returns to the previous menu.
+    
+     ![ITAM'S LOST KITCHEN Floor Plan Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20FLOORPLAN.jpg)
 
-#### 🗓️ Reminders & Notes  
-Users can add, view, update, or delete reminders and notes directly from chat commands.  
+---
 
-![HermesPy Reminders 1](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20reminders%201.png)
-![HermesPy Reminders 2](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20reminders%202.png)
-![HermesPy Reminders 3](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20reminders%203.png)
-![HermesPy Reminders 4](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20reminders%204.png)
-![HermesPy Reminders 5](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20reminders%205.png) 
+### 🍱 Specific Food Stall Menu
+- After selecting a stall, users can choose:  
+  - **A – See Food Menu**: Displays all available food and drink items for that stall.  
+  - **B – Order**: Allows the user to choose items and input quantities.  
+  - **C – Back**: Returns to the list of food stalls.
+    
+     ![ITAM'S LOST KITCHEN Specific Food Stall Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20SPECIFICFOOD.jpg)
 
-#### 🔖 Bookmarks  
-Save and retrieve important words or phrases for future reference.  
+---
 
-![HermesPy Bookmark 1](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20bookmark%201.png)
-![HermesPy Bookmark 2](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20bookmark%202.png)
+### 📜 Food Menu
+- Shows the detailed menu for the selected stall, including prices.  
+  Users may return to the previous screen by pressing:  
+  - **A – Back**
+    
+   ![ITAM'S LOST KITCHEN Food Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20FOODMENU.jpg)
 
+---
 
-#### 🔍 Information Queries  
-Ask HermesPy for definitions, quotes, fun facts, or activity suggestions.  
+### 🛒 Order Menu
+- Allows users to place their orders by selecting food items and quantities.  
+  If no items are selected, the program prompts:  
+  > “You need to order at least one [1] food in order to proceed.”  
+  After ordering, users can choose:  
+  - **11 – Done Ordering**: Proceeds to payment options.  
+  - **12 – Back**: Returns to the previous menu.
 
-![HermesPy Info 1](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20info%201.png)
-![HermesPy Info 2](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20info%202.png)
-![HermesPy Info 3](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20info%203.png)
-![HermesPy Info 4](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20info%204.png)
-![HermesPy Info 5](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20info%205.png)
-![HermesPy Info 6](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20info%206.png)
-![HermesPy Info 7](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20info%207.png)
+     ![ITAM'S LOST KITCHEN Order Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20ORDERMENU.jpg)
 
-#### 🧮 Utilities  
-Perform calculations, request the current time, or clear chat history with simple commands.  
+---
 
-![HermesPy Utility 1](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20util%201.png)
-![HermesPy Utility 2](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20util%202.png)
-![HermesPy Utility 3](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20util%203.png)
-![HermesPy Utility 4](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/HERMES/hermes-chat%20util%204.png)
+### 💳 Post-Order Menu
+- Once ordering is complete, users decide how to proceed:  
+  - **A – Continue to Receipt**: Moves to the receipt verification process.  
+  - **B – Remove Order**: Deletes all current orders and resets variables.  
+  - **X – Exit**: Ends the ordering process and returns to the main menu.
+ 
+   ![ITAM'S LOST KITCHEN Post Order Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20POSTORDER.jpg)
 
-  
+---
+
+### 💵 Receipt Verification
+- Users choose their payment method:  
+  - **A – Cash**: Prompts for payment amount and calculates total and change.  
+  - **B – GCash**: Displays a digital receipt showing total amount and transaction record.
+
+     ![ITAM'S LOST KITCHEN Rceipt Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20RECEIPT%202.jpg)
+
+---
+
+### 🧾 Final Receipt
+- The final output shows a detailed proof of purchase, including:  
+  - Customer name  
+  - Date and time of order  
+  - Payment method (Cash or GCash)  
+  - Order details and total amount  
+  - Cash received and change (if applicable)
+
+This receipt serves as a simulated verification for the canteen stall transaction.
+
+![ITAM'S LOST KITCHEN Main Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20RECEIPT%201.jpg)
+![ITAM'S LOST KITCHEN Main Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20RECEIPT%203.jpg)
+![ITAM'S LOST KITCHEN Main Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20RECEIPT%204.jpg)
+![ITAM'S LOST KITCHEN Main Menu](https://fucdounsdyfahuicxpls.supabase.co/storage/v1/object/public/ITAMS/ITK%20-%20RECEIPT%205.jpg)
+ 
 ---
 
 ## 🧩 Technologies
@@ -190,7 +249,7 @@ FEU Institute of Technology
 
 ## 🔗 Related Links  
 
-- [ITAM’S LOST KITCHEN Official Documentation](https://drive.google.com/file/d/1UmsBXe3_X1zdWnI-xCMYx_8xfKwexSon/view?usp=sharing)  
+- [ITAM’S LOST KITCHEN Official Documentation](https://drive.google.com/file/d/1n-cPP_5iRZkjEs24KekNU941qUq1sXLa/view?usp=sharing)  
 
 ---
 
