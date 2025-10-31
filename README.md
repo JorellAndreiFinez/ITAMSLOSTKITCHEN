@@ -77,8 +77,6 @@ To create a C++ program called ITAM’S LOST KITCHEN, serving as a food guide an
 
 ## 🖥️ User Interface Overview
 
-## 🖥️ User Interface Overview
-
 The following screenshots and descriptions illustrate the key interfaces of **ITAM’S LOST KITCHEN**, a menu-driven C++ console program designed to help **FEU Tech students** explore canteen food options and place simulated orders.
 
 ---
